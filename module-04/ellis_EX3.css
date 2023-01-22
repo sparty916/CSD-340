@@ -49,16 +49,18 @@ li {
 .bottom {
     width: 100%;
     margin-top: 60%;
-}
-
-.last {
-    float: right;
     margin-bottom: 20px;
+    float: right;
 }
 
 a {
     font-family: "Oswald", Verdana, Arial, sans-serif;
     text-decoration: none;
+    padding: 10px;
+}
+
+a.float {
+    float: right;
 }
 
 a:hover {
