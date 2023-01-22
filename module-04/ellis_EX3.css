@@ -1,0 +1,66 @@
+/*pj ellis - module 4 - csd 340 - css code*/
+
+h1 {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+    list-style-position: outside;
+    padding: 10px;
+}
+
+ul {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: outside;
+    list-style-type: upper-roman;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.left {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    width: 45%;
+    float: left;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.right {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    width: 45%;
+    float: left;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 60%;
+}
+
+.last {
+    float: right;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
