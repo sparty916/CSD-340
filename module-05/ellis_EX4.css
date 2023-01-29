@@ -1,0 +1,62 @@
+/*pj ellis - module 5 - csd 340 - css code*/
+
+body {
+    background-color: rgba(247, 112, 24, .2);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    border: 1px solid rgba(185, 63, 8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#image_gallery {
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+}
+
+h3 {
+    text-align: center;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+}
+
+/*Used a different px than instructions asked in order to get a better layout*/
+img {
+    width: 328px;
+    height: 500px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+}
+
+#footerlink {
+    margin-top: 10%;
+}
+
+a {
+    float: right;
+    padding: 10px;
+}
