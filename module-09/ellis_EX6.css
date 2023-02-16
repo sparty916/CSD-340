@@ -73,6 +73,10 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
+    color: white;
+    background-color: rgb(124, 12, 4);
+    text-indent: 10px;
+    border: 1px solid #ddd;
 }
 
 td {
