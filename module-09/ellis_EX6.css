@@ -94,12 +94,14 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    float: right;
+    
 }
 
 footer p {
     color: white;
     font-weight: 400;
-    padding-right: 10px;
+    padding: 0px 10px;
     font-style: italic;
 }
 
@@ -111,4 +113,8 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+#left {
+    float: left;
 }
