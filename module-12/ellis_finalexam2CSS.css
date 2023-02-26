@@ -1,5 +1,5 @@
 /* Pj Ellis - Module 12 - Final Exam - Personal Bio Site CSS */
-/* ORIGNAL VERSION */
+/* RESPONSIVE VERSION */
 
 * {
     box-sizing: border-box;
@@ -90,11 +90,6 @@ header {
     padding-right: 20px;
 }
 
-.columns {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-}
-
 .card {
     border: 2px solid gold;
     background-color: white;
@@ -109,6 +104,32 @@ header {
     font-size: 1.5em;
     padding: 2px 16px;
     margin: 0px;
+}
+
+.columns {
+    padding: 0 6px;
+    float: left;
+    width: 33.3%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .columns {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+
+
+@media only screen and (max-width: 850px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 fieldset {
