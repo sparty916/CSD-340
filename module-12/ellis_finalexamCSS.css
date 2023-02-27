@@ -19,6 +19,7 @@ body {
 h1 {
     text-align: center;
     font-weight: 400;
+    text-shadow: 10px 10px 10px black;
 }
 
 h2 {
@@ -26,7 +27,9 @@ h2 {
     color: white;
     font-size: 3em;
     background-color: rgb(4, 124, 64);
-    border: 1pt solid gold;
+    border: 2pt solid gold;
+    box-shadow: 10px 10px 10px grey;
+    text-shadow: 5px 5px 10px black;
     padding: 10px;
 }
 
@@ -37,6 +40,7 @@ h3 {
     font-size: 2.5em;
     margin: 0px;
     padding: 5px;
+    text-shadow: 2px 2px 5px black;
 }
 
 h4 {
@@ -47,6 +51,7 @@ h4 {
     font-weight: 400;
     margin: 0px;
     padding: 5px;
+    text-shadow: 2px 2px 3px grey;
 }
 
 
@@ -87,7 +92,10 @@ header {
 
 .left {
     float: left;
-    padding-right: 20px;
+}
+
+img {
+    padding: 20px;
 }
 
 .columns {
@@ -99,7 +107,7 @@ header {
     border: 2px solid gold;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px grey;
     transition: 0.3s;
     margin: 10px;
     overflow: hidden;
